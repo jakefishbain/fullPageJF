@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -11,15 +11,17 @@ export class AppComponent implements OnInit {
   config;
   fullpage_api;
 
-  constructor(private renderer: Renderer2) {
+  constructor() {
 
     // this is just an example => for more details on config please visit fullPage.js docs
     this.config = {
-      licenseKey: 'YOUR LICENSE KEY HERE',
-      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+      licenseKey: '',
+      anchors: ['landing', 'experience_refs', 'projects', 'fourthPage'],
       menu: '#menu',
       navigation: true,
-      sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+      slidesNavigation: true,
+      // controlArrows: false,
+      sectionsColor: ['#468fea', '#f8ab1f', '#71d0b6', '#d07180'],
 
       // events callback
       afterLoad: (origin, destination, direction) => {
