@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Renderer2, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,33 +6,41 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent {
-  title = 'fullPageJF';
-  config: any;
-  fullpage_api: any;
+export class AppComponent implements OnInit {
+  @ViewChild('fullpageRef') fp_directive: ElementRef;
+  config;
+  fullpage_api;
 
-  constructor() {
+  constructor(private renderer: Renderer2) {
 
-    // for more details on config options please visit fullPage.js docs
+    // this is just an example => for more details on config please visit fullPage.js docs
     this.config = {
-
-      // fullpage options
       licenseKey: 'YOUR LICENSE KEY HERE',
-      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+      anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
       menu: '#menu',
+      navigation: true,
+      sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
 
-      // fullpage callbacks
-      afterResize: () => {
-        console.log("After resize");
-      },
+      // events callback
       afterLoad: (origin, destination, direction) => {
-        console.log(origin.index);
+        // console.log(destination);
+      },
+      afterRender: () => {
+        // console.log('afterRender');
+      },
+      afterResize: (width, height) => {
+        // console.log('afterResize' + width + ' ' + height);
+      },
+      afterSlideLoad: (section, origin, destination, direction) => {
+        // console.log(destination);
       }
     };
+  }
+
+  ngOnInit() {
   }
 
   getRef(fullPageRef) {
     this.fullpage_api = fullPageRef;
   }
-
 }
