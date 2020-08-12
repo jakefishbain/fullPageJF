@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     // this is just an example => for more details on config please visit fullPage.js docs
     this.config = {
       licenseKey: '',
-      anchors: ['landing', 'experience_refs', 'projects', 'fourthPage'],
+      anchors: ['landing', 'experience_refs', 'projects', 'education'],
       menu: '#menu',
       navigation: true,
       slidesNavigation: true,
