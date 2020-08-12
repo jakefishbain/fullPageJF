@@ -1,0 +1,15 @@
+.name {
+  // font-family: cursive;
+  font-size: 3em;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 50px;
+  font-size: 14px;
+}
+
+.email, .github, .phone, .linkedin, .resume {
+  padding: 0 5px;
+}
