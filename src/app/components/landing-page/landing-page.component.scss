@@ -6,10 +6,22 @@
 .links {
   display: flex;
   justify-content: flex-end;
-  padding: 0 50px;
-  font-size: 14px;
+  bottom: 0;
+  padding: 0 50px 0 50px;
+  font-size: 12px;
 }
 
 .email, .github, .phone, .linkedin, .resume {
-  padding: 0 5px;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .icon {
+    padding-right: 3px;
+  }
+
 }
