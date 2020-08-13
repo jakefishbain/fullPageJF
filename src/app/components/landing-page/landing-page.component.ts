@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MainService } from '../../services/main.service'
+
 @Component({
   selector: 'app-landing-page',
   templateUrl: './landing-page.component.html',
@@ -7,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(public ms: MainService) { }
 
   ngOnInit(): void {
   }

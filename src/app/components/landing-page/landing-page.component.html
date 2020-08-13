@@ -1,4 +1,4 @@
-<p class='name'>Jake Fishbain</p>
+<p [ngClass]="{'name': !ms?.isMobile, 'mobile-name': ms?.isMobile}">Jake Fishbain</p>
 <div class="links">
   <div class="email"><mdb-icon far icon="envelope" class='icon'></mdb-icon>
     <a href="mailto:jakefishbain@gmail.com">Email</a>

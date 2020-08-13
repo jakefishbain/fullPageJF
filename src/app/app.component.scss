@@ -5,7 +5,7 @@
   
 #menu li {
 	display:inline-block;
-	margin: 10px;
+	margin: 10px 2px;
 	color: #000;
 //   background:#fff;
 //   background: rgba(255,255,255, 0.5);
@@ -14,8 +14,9 @@
 }
 
 #menu li.active{
-	background:#666;
-	background: rgba(0,0,0, 0.5);
+	// background:#666;
+	font-weight: bold;
+	// background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
 
