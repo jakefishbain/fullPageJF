@@ -1,0 +1,148 @@
+[
+  {
+    "company": "AVIA",
+    "img_key": "avia_logo",
+    "primary_position": {
+      "title": "Software Engineer II",
+      "timeframe": "January 2020 - Present"
+    },
+    "previous_positions": [
+      { "title": "Scrum Master/Lead", "timeframe": "January 2020 - Present" }
+    ],
+    "stack": [
+      "angular", "node", "express", "mysql", "typescript", "elastic", "webhooks", "bootstrap", "material", "graphql"
+    ],
+    "description_points": [
+      {
+        "main": "Develop and enhance codebase, elevating team dynamics and efficiency",
+        "subs": [
+          "Create component based library of reusable Angular components (with storybook implementation), slimming down build size and adding consistency to the team’s design principles",
+          "Integrate asynchronous promise based API protocol, eliminating nested callbacks in Node",
+          "Integrate code standard to protect against SQL injection and other security concerns"
+        ]
+      }, 
+      {
+        "main": "Implement new service architecture model",
+        "subs": [
+          "Introduce and execute new integration testing platform",
+          "Develop novel email analytics platform integrating with third party APIs, webhooks, and monitoring services",
+          "Upgrade frontend stack through 2 major Angular release versions, incorporate Ivy compiler",
+          "Introduce new flat graph model in order to integrate new GraphQL middleware layer"
+        ]
+      },
+      {
+        "main": "Lead, develop, and maintain developer internship program",
+        "subs": [
+          "Mentor incoming junior engineers and interns through the lifecycle of their experience at AVIA",
+          "Act as primary point of contact, guiding team members through onboarding, environment setup, exposure and integration of our stack, skill hardening via consistent teaching and pairing sessions, and management/1:1 meetings."
+        ]
+      },
+      {
+        "main": "Introduce and Implement team scrum/agile policies and procedures",
+        "subs": [
+          "Lead daily stand meeting outlining blockers with specific follow up tasks",
+          "Participate in ‘scrum of scrums’ meeting with other leads, syncing and sharing out celebrations and impediments with upper management",
+          "Aide in bi-weekly sprint planning, delineation, and organization"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ThinkCERCA",
+    "img_key": "tc_logo",
+    "primary_position": {
+      "title": "Software Engineer",
+      "timeframe": "August 2018 - January 2020"
+    },
+    "previous_positions": [
+      { "title": "Junior Software Engineer", "timeframe": "February 2017 - August 2018" }
+    ],
+    "stack": [
+      "react", "ruby on rails", "postgresql", "redis", "algolia", "bootstrap", "graphql"
+    ],
+    "description_points": [
+      {
+        "main": "Develop and improve overall product architecture/codebase",
+        "subs": [
+          "Develop, design, and implement application knowledge using Ruby on Rails, React, GraphQL. Build and iterate upon functional component code base",
+          "Improve unit, integration and E2E test coverage",
+          "Collaborate/contribute on sprints that align with key roadmap items and will advance building Tier 2 Support capacity"
+        ]
+      },
+      {
+        "main": "Own and manage all Support Functions",
+        "subs": [
+          "Work directly with internal and external stakeholders to understand support issues, and provide context, metrics, documentation for effective solutions",
+          "Prioritize and manage backlog of Tier 2 support features/functionalities with other Team Leads",
+          "Own Jira project and ZenDesk Support trends - deliver tickets and/or push them to the appropriate teams"
+        ]
+      },
+      {
+        "main": "Create and iterate upon ThinkCERCAMP, a professional development program with a growth mindset focus exploring the paradigms and processes to learn coding and engineering empathy across the company",
+        "subs": [
+          "Develop curriculum to guide coworkers through self-directed programming modules with real-world deliverables",
+          "Lead instruction and content delivery"
+        ]
+      },
+      {
+        "main": "Refine, document and evolve the Tier 1 and Tier 2 support processes",
+        "subs": [
+          "Build, iterate and document support tools",
+          "Train additional engineers in support processes as well as command line support tools"
+        ]
+      },
+      {
+        "main": "Celebrate and improve culture across the team, implementing positive change through understanding, collaboration, and new initiatives"
+      },
+      {
+        "main": "Use insights from support work and success tickets to help inform feature iterations and architectural planning of new epics"
+      }
+    ]
+  },
+  {
+    "company": "Northwestern University | Trilogy Education",
+    "img_key": "northwestern_logo",
+    "primary_position": {
+      "title": "Web Development Teaching Assistant | Mentor",
+      "timeframe": "August 2018 - Present"
+    },
+    "description_points": [
+      {
+        "main": "Mentor and assist teaching Northwestern Web Development students through a fullstack program",
+        "subs": [
+          "Guide students in developing confidence and proficiency in: JavaScript, HTML, CSS, jQuery, Node.js, React.js, Git, Command Line, MySQL, Ruby on Rails, Sequelize, Express, SQL, noSQL, Tableau"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Code Platoon",
+    "img_key": "code_platoon_logo",
+    "primary_position": {
+      "title": "Web Development Teaching Assistant | Mentor",
+      "timeframe": "August 2017 - August 2018"
+    },
+    "description_points": [
+      { "main": "Code Platoon Credo: Understand that good software developers don’t just know how to code; they have emotional intelligence that allows them to give and receive feedback, and they understand that often the way forward is through pure grit and determination"},
+      { "main": "Research and answer student questions"},
+      { "main": "Help model and advance students' skills"}
+    ]
+  },
+  {
+    "company": "Chicago Public Schools",
+    "img_key": "cps_logo",
+    "primary_position": {
+      "title": "Special Education Teacher | LBSI",
+      "timeframe": "August 2015 - June 2016"
+    }
+  },
+  {
+    "company": "Niles Township District For Special Education",
+    "img_key": "ntdse_logo",
+    "primary_position": {
+      "title": "Special Education Teacher | LBSI",
+      "timeframe": "August 2013 - July 2015"
+    },
+    "final_item": true
+  }
+]
